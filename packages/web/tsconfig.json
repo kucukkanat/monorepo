@@ -1,0 +1,4 @@
+{
+    "extends": "architecture/tsconfig.json",
+    "exclude": ["webpack.config.js", "dist"]
+}
