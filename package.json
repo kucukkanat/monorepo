@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "main": "index.js",
-  "workspaces": ["packages/**"],
+  "workspaces": [
+    "packages/**"
+  ],
   "scripts": {
     "dev": "lerna run dev --parallel",
     "build": "lerna run build --parallel",
